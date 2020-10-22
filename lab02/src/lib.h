@@ -29,6 +29,7 @@ enum animal_type {
 	COW, /**< Корова */
 	DOG, /**< Собака */
 	CAT, /**< Кіт */
+	HUMAN, /**< liudyna */
 	ANIMAL_TYPE_COUNT /**< Кількість тварин */
 };
 
@@ -68,3 +69,4 @@ void generate_animal(struct animal *entity);
 void show_animals(struct animal animals[], unsigned int count);
 
 #endif
+
